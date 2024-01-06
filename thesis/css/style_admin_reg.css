@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.7469362745098039) 41%, rgba(242,242,242,0.7049194677871149) 66%, rgba(242,242,242,0.8561799719887955) 100%),url(images/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+  }
+  .container{
+    
+    margin: auto;
+    width: 900px;
+    height: 550px;
+    background: rgb(255,255,255);
+    background:  linear-gradient(0deg, rgba(255,248,248,1) 89%, rgb(163, 30, 75) 89%, rgb(163, 30, 75) 89%);
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  
+  }
+  section.container{
+    align-items: center;
+    margin-top: 80px;
+    
+  
+  } 
+  .container header {
+    color:rgb(229, 227, 227);
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-align:center;
+    
+  }
+  .container h1{
+    color: darkgray;
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-left: 60px;
+    text-align: left;
+  }
+  .container pre {
+    color: darkgray;
+    text-align: center;
+    margin-left: -540px;
+    font-weight: lighter;
+    line-height: 20px;
+  }
+  .container h2 {
+    font-size: 15px;
+    font-weight: lighter;
+    color: darkgray;
+    margin-top: 40px;
+    font-size: 25px;
+    margin-left: 60px;
+    letter-spacing: 1px;
+  }
+  .paragraph3 {
+    color: darkgray;
+    margin-top: -20px;
+    margin-left: 6px;
+    line-height: 40px;
+    text-align: justify;
+    width:400px
+  }
+  
+  .paragraph2 {
+    text-align: left;
+    font-size: 15px;
+  }
+  div.vertical {
+        width: 1px;
+        background-color: rgb(215, 215, 215);
+        height: 100%;
+        float: left;
+        border: 2px ridge rgb(210, 210, 210) ;
+        border-radius: 2px;
+        margin-left: 380px;
+        margin-top: -415px;
+  }
+  
+  .form .input-box {
+    width: 100%;
+    height: 100px;
+  }
+  .input-box label {
+    color: #333;
+  }
+  
+  .form :where(.input-box input, .select-box) {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070; 
+    border: 1px solid #ddd;
+    padding: 0 15px;
+  }
+  .input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .hey{
+      margin-top: -260px;
+      width: 450px;
+      position: absolute;
+      right: 300px;
+      top: 475px;
+      z-index: 9;
+      margin-right: 50px;
+  }
+  .return-btn{
+    margin-top: -680px;
+    margin-left: 5px;
+    max-width: 90000px;
+    opacity: 30%;
+    
+    }
+    .sign-in input {
+      height: 50px;
+      width: 170px;
+      letter-spacing: 2px;
+      border-radius: 8px;
+      color: #f6f6f6;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-top: 15px;
+      margin-left: 170px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      background: rgb(163, 30, 75);
+      font-size: 20px;
+    }
+    .sign-in input:hover {
+      background: rgb(255, 72, 136);
+    }

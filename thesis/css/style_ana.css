@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.7469362745098039) 41%, rgba(242,242,242,0.7049194677871149) 66%, rgba(242,242,242,0.8561799719887955) 100%),url(images/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+  }

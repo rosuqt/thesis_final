@@ -1,0 +1,10 @@
+.option3 {
+    border-left: 5px solid #010058af;
+    background-color: var(--Border-color);
+    color: white;
+    cursor: pointer;
+    }
+    .option3:hover {
+    border-left: 5px solid #010058af;
+    background-color: var(--Border-color);
+    }

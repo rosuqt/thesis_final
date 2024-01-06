@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.7469362745098039) 41%, rgba(242,242,242,0.7049194677871149) 66%, rgba(242,242,242,0.8561799719887955) 100%),url('../images/bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+  }
+  
+  .container{
+    
+    margin: auto;
+    width: 900px;
+    height: 550px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgb(163, 30, 75) 49%, rgba(255,255,255,1) 49%, rgba(242,242,242,1) 100%);
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  
+  }
+  section.container{
+    align-items: center;
+    margin-top: 80px;
+  
+  } 
+  .container header {
+    font-size: 40px;
+    color: rgb(163, 30, 75);
+    font-weight: 500;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    width: 5000px;
+    font-size: 30px;
+    
+  }
+  p{
+    margin-left: 520px;
+    line-height: 40px;
+  }
+  header{
+    margin-right: 330px;
+    margin-top: 70px;
+    margin-left: 570px;
+  }
+  
+  .container p{
+    font-size: 14px;
+     size: 40px;
+     letter-spacing: 1px;
+     font-family: 'PT Sans Narrow';
+     color: rgb(144, 134, 134);
+  }
+  p{
+    margin-left: 520px;
+    line-height: 40px;
+  }
+  
+  .container .form {
+    margin-top: 30px;
+    margin-left: -20px;
+    line-height: 200%;
+  }
+  .form .input-box {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 500px;
+  }
+  
+  
+  .input-box label {
+    color: #636363;
+  }
+  
+  .form :where(.input-box input, .select-box) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 3px;
+    border: 1px solid #ddd;
+    padding: 0 15px;
+  }
+  .input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .sign-in button {
+    height: 55px;
+    width: 180px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    color: #f6f6f6;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 600px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: rgb(163, 30, 75);
+    font-size: 20px;
+  }
+  .sign-in button:hover {
+    background: rgb(100, 18, 46);
+  }
+  .redirect{
+  margin-left:670px ;
+  }
+  
+  
+  section.welcome{
+  position: absolute;
+  }
+  
+  .welcome{
+  width: 400px;
+  margin-top: -310px;
+  margin-left: 25px;
+  text-align: center;
+  line-height: 30px;
+  }
+  
+  .welcome label{
+    color: #e4e4e4;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight:900;
+  
+    }
+  
+  .welcome p1{
+    color: #e4e4e4;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    }
+  
+  .welcome p2{
+      color: #e4e4e4;
+      letter-spacing: 1px;
+      font-size: 10px;
+      text-align: center;
+      font-weight: 10;
+      }
+  .return-btn{
+  margin-top: -680px;
+  margin-left: 5px;
+  max-width: 90000px;
+  opacity: 30%;
+  
+  }
+  a{
+    text-decoration: none;
+    color: rgb(163, 30, 75);
+  }
+  
